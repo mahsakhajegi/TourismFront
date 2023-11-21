@@ -67,25 +67,29 @@
     color: #fff;
     --bs-link-color: #fff;
 }
+
 .my-footer .nav-link {
     --bs-nav-link-padding-x: 0;
     --bs-nav-link-padding-y: 0.25rem;
     --bs-nav-link-disabled-color: #d1cdcd;
 }
-.my-footer .nav-link:hover{
+
+.my-footer .nav-link:hover {
     --bs-nav-link-hover-color: rgb(255, 104, 240);
 }
 
 .my-header .auth-control {
-    --bs-border-radius:50px;
+    --bs-border-radius: 50px;
     width: 110px;
     border: 0px;
 }
+
 .my-header .nav-link {
     color: black;
     font-weight: bold;
     --bs-nav-link-padding-x: .75rem;
 }
+
 .my-header .nav-link:hover {
     border-bottom: 1px solid aqua;
 }

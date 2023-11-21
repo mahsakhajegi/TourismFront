@@ -1,0 +1,91 @@
+.img-header {
+    position: absolute;
+    width: 100%;
+}
+
+.like-icon {
+    color: rgb(200, 1, 1);
+    background-color: #fff;
+    display: inline-flex;
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+
+.my-slider {
+    background-color: rgb(205, 255, 255);
+}
+
+.h_iframe-aparat_embed_frame {
+    position: relative;
+}
+
+.h_iframe-aparat_embed_frame .ratio {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.h_iframe-aparat_embed_frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.overflow-name {
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
+}
+
+.overflow-name:hover {
+
+    text-overflow: unset;
+    white-space: wrap;
+    width: 150px;
+}
+
+.p-Happy-Travelers-Experestions {
+    height: 150px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.shadow-onhover:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 1s;
+}
+
+.my-footer {
+    background: linear-gradient(109.6deg, rgb(31, 179, 237) 11.2%, rgb(17, 106, 197) 91.1%);
+    color: #fff;
+    --bs-link-color: #fff;
+}
+.my-footer .nav-link {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.25rem;
+    --bs-nav-link-disabled-color: #d1cdcd;
+}
+.my-footer .nav-link:hover{
+    --bs-nav-link-hover-color: rgb(255, 104, 240);
+}
+
+.my-header .auth-control {
+    --bs-border-radius:50px;
+    width: 110px;
+    border: 0px;
+}
+.my-header .nav-link {
+    color: black;
+    font-weight: bold;
+    --bs-nav-link-padding-x: .75rem;
+}
+.my-header .nav-link:hover {
+    border-bottom: 1px solid aqua;
+}

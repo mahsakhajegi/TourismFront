@@ -90,6 +90,20 @@
     --bs-nav-link-padding-x: .75rem;
 }
 
-.my-header .nav-link:hover {
-    border-bottom: 1px solid aqua;
+.sidebar-menu .offcanvas {
+    --bs-offcanvas-width: 300px;
+}
+
+.auth-control-sidebar {
+    width: 80px;
+    height: auto;
+    font-size: 14px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.btn-close-sidebar {
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }

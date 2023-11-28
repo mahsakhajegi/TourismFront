@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "dubai.jpg",
+        "country": "Dubai",
+        "continent": "Asia",
+        "price": {
+            "amount": "$3000",
+            "off": "$1500"
+        }
+    },
+    {
+        "id": 2,
+        "image": "espain.jpg",
+        "country": "Spain",
+        "continent": "Europs",
+        "price": {
+            "amount": "$5800",
+            "off": "$2800"
+        }
+    },
+    {
+        "id": 3,
+        "image": "iran.jpg",
+        "country": "Iran",
+        "continent": "Asia",
+        "price": {
+            "amount": "$1800",
+            "off": "$1200"
+        }
+    },
+    {
+        "id": 4,
+        "image": "italy.jpg",
+        "country": "Italy",
+        "continent": "Europs",
+        "price": {
+            "amount": "$8300",
+            "off": "$4500"
+        }
+    },
+    {
+        "id": 5,
+        "image": "paris.jpg",
+        "country": "Paris",
+        "continent": "Europs",
+        "price": {
+            "amount": "$4800",
+            "off": "$2800"
+        }
+    },
+    {
+        "id": 6,
+        "image": "thailand.jpg",
+        "country": "Thailand",
+        "continent": "Asia",
+        "price": {
+            "amount": "$7500",
+            "off": "$2300"
+        }
+    }
+]

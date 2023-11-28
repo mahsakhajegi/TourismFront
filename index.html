@@ -12,6 +12,9 @@
 </head>
 
 <body>
+    <form>
+        
+    </form>
     <header class="my-header">
         <nav class="bg-body-tertiary">
             <div class="container mt-3">
@@ -110,7 +113,7 @@
                                     <li class="list-group-item"><a href="#"
                                             class="text-decoration-none text-dark fw-bold">Privacy</a></li>
                                     <li class="list-group-item"><a href="delete-account.html"
-                                            class="text-decoration-none text-danger fw-bold" >Delete Acount</a></li>
+                                            class="text-decoration-none text-danger fw-bold">Delete Acount</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -133,196 +136,28 @@
     <!-- Modal Delet Account -->
     <div class="modal fade" id="DeletAcount" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5 text-danger" id="exampleModalLabel">Delete Your Acount</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-danger" id="exampleModalLabel">Delete Your Acount</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Do you want to delete account?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-danger">Yes, I'm Sure</button>
+                </div>
             </div>
-            <div class="modal-body">
-                Do you want to delete account?
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-success" data-bs-dismiss="modal">No</button>
-              <button type="button" class="btn btn-danger">Yes, I'm Sure</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <main>
         <!-- Our Populare Package -->
         <section class="container">
-            <div class="row">
+            <div class="row" id="tours">
                 <div class="col-12 m-3">
                     <h1 class="text-center">Our Populare Package</h1>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card mb-4">
-                        <div>
-                            <div class="img-header d-flex justify-content-between p-3">
-                                <div>
-                                    <span class="badge text-bg-light">Populare Package</span>
-                                </div>
-                                <div>
-                                    <i class="like-icon bi bi-heart-fill"></i>
-                                </div>
-                            </div>
-                            <img src="./images/dubai.jpg" class="card-img-top">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Dubai</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">United Arab Emirates</h6>
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <span class="fw-bold">$1500</span>
-                                    <span class="text-decoration-line-through">$3000</span>
-                                </div>
-                                <a href="#" class="btn btn-outline-info btn-sm rounded-pill fw-bold">BUY NOW</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card mb-4">
-                        <div>
-                            <div class="img-header d-flex justify-content-between p-3">
-                                <div>
-                                    <span class="badge text-bg-light">Populare Package</span>
-                                </div>
-                                <div>
-                                    <i class="like-icon bi bi-heart-fill"></i>
-                                </div>
-                            </div>
-                            <img src="./images/espain.jpg" class="card-img-top">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Spain</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Europs</h6>
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <span class="fw-bold">$2800</span>
-                                    <span class="text-decoration-line-through">$5800</span>
-                                </div>
-                                <a href="#" class="btn btn-outline-info btn-sm rounded-pill fw-bold">BUY NOW</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card mb-4">
-                        <div>
-                            <div class="img-header d-flex justify-content-between p-3">
-                                <div>
-                                    <span class="badge text-bg-light">Populare Package</span>
-                                </div>
-                                <div>
-                                    <i class="like-icon bi bi-heart-fill"></i>
-                                </div>
-                            </div>
-                            <img src="./images/iran.jpg" class="card-img-top">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Iran</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Asia</h6>
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <span class="fw-bold">$1200</span>
-                                    <span class="text-decoration-line-through">$1800</span>
-                                </div>
-                                <a href="#" class="btn btn-outline-info btn-sm rounded-pill fw-bold">BUY NOW</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card mb-4">
-                        <div>
-                            <div class="img-header d-flex justify-content-between p-3">
-                                <div>
-                                    <span class="badge text-bg-light">Populare Package</span>
-                                </div>
-                                <div>
-                                    <i class="like-icon bi bi-heart-fill"></i>
-                                </div>
-                            </div>
-                            <img src="./images/italy.jpg" class="card-img-top">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Italy</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Europs</h6>
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <span class="fw-bold">$4500</span>
-                                    <span class="text-decoration-line-through">$8300</span>
-                                </div>
-                                <a href="#" class="btn btn-outline-info btn-sm rounded-pill fw-bold">BUY NOW</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card mb-4">
-                        <div>
-                            <div class="img-header d-flex justify-content-between p-3">
-                                <div>
-                                    <span class="badge text-bg-light">Populare Package</span>
-                                </div>
-                                <div>
-                                    <i class="like-icon bi bi-heart-fill"></i>
-                                </div>
-                            </div>
-                            <img src="./images/paris.jpg" class="card-img-top">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Paris</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Europs</h6>
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <span class="fw-bold">$2850</span>
-                                    <span class="text-decoration-line-through">$4890</span>
-                                </div>
-                                <a href="#" class="btn btn-outline-info btn-sm rounded-pill fw-bold">BUY NOW</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card mb-4">
-                        <div>
-                            <div class="img-header d-flex justify-content-between p-3">
-                                <div>
-                                    <span class="badge text-bg-light">Populare Package</span>
-                                </div>
-                                <div>
-                                    <i class="like-icon bi bi-heart-fill"></i>
-                                </div>
-                            </div>
-                            <img src="./images/thailand.jpg" class="card-img-top">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Thailand</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Asia</h6>
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <span class="fw-bold">$2300</span>
-                                    <span class="text-decoration-line-through">$7500</span>
-                                </div>
-                                <a href="#" class="btn btn-outline-info btn-sm rounded-pill fw-bold">BUY NOW</a>
-                            </div>
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -585,7 +420,7 @@
     <script src="./lib/splide/splide.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
